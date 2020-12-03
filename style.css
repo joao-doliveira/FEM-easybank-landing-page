@@ -164,6 +164,10 @@ body{
     display: none;
 }
 
+#mobileremove{
+    display: none;
+}
+
 .features{
     background-color: hsl(220, 16%, 96%);
     text-align: center;
@@ -409,6 +413,14 @@ path{
 
     .navbar--desktop__li{ 
         padding: 30px 15px;
+    }
+
+    #mobileremove{
+        display: block;
+    }
+    
+    #desktopremove{
+        display: none;
     }
     
     .showcase{
