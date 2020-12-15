@@ -1,4 +1,4 @@
-const navbar = document.querySelector('.navbar')
+const navbar = document.querySelector('.navbar--desktop')
 const navbarButton = document.querySelector('.header__ham')
 
 function toggleNavbar(){
